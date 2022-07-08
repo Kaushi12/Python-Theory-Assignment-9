@@ -1,0 +1,13 @@
+1) A relative file path is interpreted from the perspective your current working directory. If you use a relative file path from the wrong directory, then the path will refer to a different file than you intend, or it will refer to no file at all.
+2) An absolute path is a path that contains the entire path to the file or directory that you need to access. This path will begin at the home directory of your computer and will end with the file or directory that you wish to access. Absolute paths ensure that Python can find the exact file on your computer.
+3) getcwd() : CWD stands for Current Working Directory. This function allows you to see what your current working directory is. chdir("path-to-dir") : Short for CHange DIRectory, this function allows you to set the current working directory to a path of your choice.
+4) A directory or folder is a collection of files and subdirectories. Python has the os module that provides us with many useful methods to work with directories (and files as well).
+5) C:\bacon\eggs is the dir name, while spam. txt is the base name.
+6) Mode	Description
+'x'	Open a file for exclusive creation. If the file already exists, the operation fails.
+'a'	Open for appending at the end of the file without truncating it. Creates a new file if it does not exist.
+'t'	Open in text mode. (default)
+7) What happens if an existing file is opened in write mode in python?
+r+ : Opens a file for reading and writing, placing the pointer at the beginning of the file. w : Opens in write-only mode. The pointer is placed at the beginning of the file and this will overwrite any existing file with the same name. It will create a new file if one with the same name doesn't exist.
+8) The main difference is that read() will read the whole file at once and then print out the first characters that take up as many bytes as you specify in the parenthesis versus the readline() that will read and print out only the first characters that take up as many bytes as you specify in the parenthesis.
+9) A shelf value resembles a dictionary value; it has keys and values, along with keys() and values() methods that work similarly to the dictionary methods of the same names.
